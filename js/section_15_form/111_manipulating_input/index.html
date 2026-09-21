@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #name, #password{
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        #registration {
+            transform: translateY(-49%);
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <form action="..." method="get" id="registration">
+        <!--Name-->
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+
+        <!--Password-->
+        <label for="name">Password:</label>
+        <input type="text" name="password" id="password">
+
+        <button>Register</button>
+    </form>
+    <script src="index.js" defer></script>
+</body>
+</html>

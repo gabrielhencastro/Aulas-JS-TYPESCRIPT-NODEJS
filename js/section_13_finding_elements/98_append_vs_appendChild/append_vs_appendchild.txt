@@ -1,0 +1,15 @@
+append (Modern & Flexible):
+
+Adds HTML elements (tags) AND plain text.
+
+Accepts multiple items at once separated by commas: el.append(li1, li2, "Text").
+
+Renders strings as literal text, not parsed HTML (e.g., "<p>hi</p>" appears as text on screen).
+
+appendChild (Classic/Legacy):
+
+Adds ONLY HTML elements (DOM nodes).
+
+Accepts ONLY 1 item at a time.
+
+Throws an error if you pass a plain text string directly.
